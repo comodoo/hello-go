@@ -1,3 +1,2 @@
-rm -rf _builds _steps _projects
-wercker build --git-domain github.com --git-owner cloudnativego --git-repository hello
-rm -rf _builds _steps _projects
+# chcon -Rt svirt_sandbox_file_t $PWD
+#wercker build --git-domain github.com --git-owner cloudnativego --git-repository hello
