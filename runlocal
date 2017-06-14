@@ -1,1 +1,4 @@
-drone exec
+#!/bin/bash
+# https://github.com/drone/drone/issues/2048
+
+DOCKER_API_VERSION=1.24 drone exec
